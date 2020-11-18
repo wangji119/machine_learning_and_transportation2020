@@ -60,8 +60,8 @@ The comparison of the accuracy of all methods using in Dataset1 and Dataset2 wou
 　　ii.Comparison chart  
 　　The second one was the comparison chart based on the prediction and the test set. From the charts, we could intuitively noticed those good results.  
 　　The comparison between the predicted and actual values based on Dataset1 is as follows：  
-![image3](https://github.com/fujunpeng/machine_learning_and_transportation_2020_project/tree/main/image/image3.png)  
+![image3](https://raw.githubusercontent.com/fujunpeng/machine_learning_and_transportation_2020_project/main/image/image3.png)  
 　　The comparison between the predicted and actual values based on Dataset2 is as follows：  
-![image4](https://github.com/fujunpeng/machine_learning_and_transportation_2020_project/tree/main/image/image4.png)  
+![image4](https://raw.githubusercontent.com/fujunpeng/machine_learning_and_transportation_2020_project/main/image/image4.png)  
 
 　　By the way, we ran into a problem when we were drawing these comparison chart. We found that using only the subplot() function would make each image very small and the spacing between them very small. We made the overall image larger by adding the 'figsize' parameter to the initial plt.figure() function, and added the plt.subplots_adjust() function after several subplot() functions to adjust the spacing between the images to the appropriate scale.
