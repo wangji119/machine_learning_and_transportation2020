@@ -21,7 +21,7 @@ The comparison of the accuracy of all methods using in Dataset1 and Dataset2 wou
 　　i.Bar gragh  
 　　The first one was the bar gragh. It recorded the score of prediction using different methods. As we can see, accuracy scores of the Dataset1 could be ranked from highest to lowest as: 
     GBR＞RFR≈KNR＞MLPR＞DTR＞LR＞＞SVR.
-    ![image1](https://github.com/wangji119/machine_learning_and_transportation2020/main/image/image1.png)  
+    ![image1](https://github.com/wangji119/machine_learning_and_transportation2020/blob/main/image/image1.png)  
 
 　　Ranking of the regression predictive power of multiple classical regression models for the "Boston House Price Forecast" problem:  
 
@@ -40,7 +40,7 @@ The comparison of the accuracy of all methods using in Dataset1 and Dataset2 wou
 
     While accuracy scores of the Dataset2 could be ranked from highest to lowest as:  
     GBR＞KNR＞RFR＞LR＞MLPR≈SVRpoly＞SVRlinear＞SVRrbf＞SVRsigmoid＞DTR.  
-![image2](https://github.com/wangji119/machine_learning_and_transportation2020/main/image/image2.png)  
+![image2](https://github.com/wangji119/machine_learning_and_transportation2020/blob/main/image/image2.png)  
 
 　　Ranking of the regression predictive power of multiple classical regression models for the "Boston House Price Forecast" problem:  
 
@@ -60,8 +60,8 @@ The comparison of the accuracy of all methods using in Dataset1 and Dataset2 wou
 　　ii.Comparison chart  
 　　The second one was the comparison chart based on the prediction and the test set. From the charts, we could intuitively noticed those good results.  
 　　The comparison between the predicted and actual values based on Dataset1 is as follows：  
-![image3](https://github.com/wangji119/machine_learning_and_transportation2020/main/image/image3.png)  
+![image3](https://github.com/wangji119/machine_learning_and_transportation2020/blob/main/image/image3.png)  
 　　The comparison between the predicted and actual values based on Dataset2 is as follows：  
-![image4](https://github.com/wangji119/machine_learning_and_transportation2020/main/image/image4.png)  
+![image4](https://github.com/wangji119/machine_learning_and_transportation2020/blob/main/image/image4.png)  
 
 　　By the way, we ran into a problem when we were drawing these comparison chart. We found that using only the subplot() function would make each image very small and the spacing between them very small. We made the overall image larger by adding the 'figsize' parameter to the initial plt.figure() function, and added the plt.subplots_adjust() function after several subplot() functions to adjust the spacing between the images to the appropriate scale.
